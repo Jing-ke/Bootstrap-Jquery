@@ -1,0 +1,138 @@
+.contact_left{
+    margin-top: 70px;
+}
+.co_ul  li{
+    border: 1px solid #f1f1f1;
+}
+.panel-default {
+    border: 1px solid #f1f1f1;
+   
+}
+.tit_line{
+    background-color: #f1f1f1 !important;
+}
+.co_ul  li a{
+    color: #969696;
+    
+}
+.co_ul  li span{
+    display: inline-block;
+    background-color: #969696;
+    padding:5px;
+    border-radius: 5px;
+    margin-right: 5px;  
+}
+.co_ul  li  i{
+    font-size: 18px;
+    vertical-align: middle;
+    color: #fff;
+
+}
+.co_ul  li:hover{
+    background-color: #ff634f;
+    color: #fff;
+}
+.co_ul  li:hover span{
+    background-color: #ff634f;
+    color: #fff;
+}
+.co_ul  li:hover a{
+    color: #fff;
+}
+.contact_right{
+    margin-top: 70px;
+}
+.conac_on{
+    background-color: #f1f1f1;
+
+}
+.tit_line{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.span_colo{
+    color: #ff634f;
+}
+.form_pos{
+    position: relative;
+}
+.uer_xing{
+    margin-top: 20px;
+}
+.user_name{
+    border-bottom: 1px solid #f1f1f1;
+}
+.message_user{
+    margin-top: 20px;
+}
+.user_li{
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.time_user{
+    color: #969696;
+}
+.btn_color:hover{
+    color: #f1f1f1;
+}
+@media screen and (max-width: 767px) {
+
+    .co_ul  li{
+        text-align: center;
+    }
+    .co_ul  li{
+        border: 1px solid #f1f1f1;
+    }
+    .co_ul  li span{
+        margin-left: -2px;
+    }
+ 
+}
+@media screen and (max-width: 1200px) {
+    .dis_cona a{
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .btn_color{
+        background-color: #ff634f;
+        border-radius: 5px;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .form-control{
+        width: 100% ; 
+    }
+}
+@media screen and (min-width: 1200px) {
+    .btn_color{
+        position: absolute;
+        right: 0px;
+        bottom:6px;
+        background-color: #ff634f;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .form-control{
+        width: 85% ; 
+    }
+}
+
+.message-num{
+    position: absolute;
+    top:0px;
+    right:0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    /* padding: 0px 5.2px !important; */
+    border-radius: 100% !important;
+    background-color: #ff634f !important;
+    color: #fff !important;
+    line-height: 21px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 !important;
+}

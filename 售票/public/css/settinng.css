@@ -1,0 +1,101 @@
+/* .container{
+    height: 500px;
+} */
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.content{
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    /* box-sizing: border-box; */
+}
+/* 左侧内容 */
+.left-content{
+    float: left;
+    width: 25%;
+    /* height: 500px; */
+    border: 1px solid #ccc;
+}
+.sidebar{
+    margin: 0;
+    padding-left: 0;
+}
+.sidebar li{
+    list-style: none;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(240,240,240);
+}
+.sidebar .icon-warp{
+    padding: 5px;
+    background-color: #ccc;
+}
+
+
+/* 右侧内容 */
+.right-content{
+    float: right;
+    width: 72%; 
+    /* height: 500px; */
+    padding: 20px 20px 20px 50px;
+    /* border: 1px solid #ccc; */
+}
+.text-align{
+    text-align: left !important;
+    color: rgb(173,168,160);
+}
+.line-down{
+    margin-bottom: 0 !important;
+    padding: 20px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.btn-style{
+    padding: 5px 12px !important;
+    color: rgb(234,111,90) !important;
+    border: 1px solid rgb(234,111,90) !important;
+    border-radius: 20px 20px 20px 20px !important;
+    background-color: #fff !important;
+    outline: none !important;
+}
+.question{
+    color: #333;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.question:hover{
+    color: rgb(234,111,90);
+}
+.hint{
+    color: #999;
+    font-size: 13px;
+    margin: 5px 0 0 0;
+}
+.textarea-noresize{
+    resize: none;
+}
+.non-line{
+    border-bottom: none !important;
+    margin-bottom: 20px !important;
+}
+.save-btn{
+    padding: 5px 25px !important;
+    color: #fff !important;
+    background-color: rgb(234,111,90) !important;
+    border: none;
+    border-radius: 20px 20px 20px 20px !important;
+    outline: none !important;
+}
+.contact_right {
+    border: 1px solid #f2f2f2;  
+    margin-bottom: 40px;
+}
+.line-down .state{
+    padding: 30px;
+    line-height: 30px;
+
+}
+.state span{
+    color: #333;
+    font-size: 16px;    
+}

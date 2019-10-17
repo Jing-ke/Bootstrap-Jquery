@@ -1,0 +1,82 @@
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.content{
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    /* box-sizing: border-box; */
+}
+/* 左侧内容 */
+.left-content{
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+/* 右侧内容 */
+.right-content{
+    float: right;
+    width: 72%; 
+    /* height: 500px; */
+    padding: 20px 20px 20px 50px;
+    border: 1px solid #ccc;
+}
+.text-align{
+    text-align: left !important;
+    color: rgb(173,168,160);
+}
+/* table input.choice{
+    margin-top: 
+} */
+table i{
+    vertical-align: 6%;
+    margin-left: 10px;
+}
+table i:hover{
+    color: rgb(234,111,90) !important;
+}
+.default-color{
+    color: #ccc;
+}
+table i.on{
+    color: rgb(234,111,90) !important;
+}
+td .context{
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+td .context:hover{
+    text-decoration: none;
+    color: #000;
+}
+td .time{
+    color: #333;
+    font-size: 14px;
+}
+a.delete{
+    font-size: 14px;
+    text-decoration: none;
+}
+.delete:hover{
+    color: #333;
+    /* font-size: 14px; */
+}
+.page-center{
+    margin-left: calc(50% - 115px) !important;
+}
+.page-center li>a{
+    color: rgb(234,111,90) !important;
+}
+.page-center li.active>a{
+    color: #fff !important;
+    background-color: rgb(234,111,90) !important;
+    border-color: rgb(234,111,90) !important;
+}
+@media screen and (max-width: 768px){
+    .page-center{
+    margin-left: calc(50% - 97px) !important;
+}
+}

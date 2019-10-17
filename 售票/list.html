@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <title></title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <link href="./public/css/IE.css" rel="stylesheet">
+    <link href="./public/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/list.css">
+    <script src="./public/js/IE.js"></script>
+    <!-- <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/js/dist/bootstrap.min.js"></script> -->
+    <!-- 下拉菜单栏依赖 -->
+    <!-- <script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.js"></script> -->
+</head>
+
+<body>
+    <!-- 导航 -->
+    <div class="navbar-fixed-top" style="border-bottom: 1px solid #f1f1f1; height: 76px; ">
+        <nav class="navbar navbar-fixed-top navbar-inverse nav_width">
+            <div class="container H_top">
+                <div class="navbar-header2 col-sm-1 col-lg-1">
+                    <a class="navbar-brand" href="#">
+                        <div class="logo">
+                            <div class="svg-container">
+                                <svg version="1.1" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet"
+                                    class="svg-content">
+                                    <circle cx="250" cy="250" r="244" class="cr"></circle>
+                                    <text font-family="'Helvetica Neue','PingFang SC','microsoft yahei'" font-size="280"
+                                        x="0" y="1em">
+                                        <tspan x="110" dy="70" style="fill: #FFFFFF">冀
+                                    </text>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse xs_down" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                                首页</a></li>
+                        <li><a href="#about">第二页</a></li>
+                        <li><a href="#about">第三页</a></li>
+                        <li><a href="#contact">关于我们</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group btn_pos">
+                            <input type="text" class="form-control" placeholder="搜索">
+                            <button type="submit" class="btn btn_sec "><i class="fa fa-search"
+                                    aria-hidden="true"></i></button>
+                        </div>
+
+                    </form>
+                </div><!-- /.nav-collapse -->
+                <!-- 登录下拉菜单 -->
+                <!-- 登录下拉菜单 -->
+                <div class="login_logo">
+                    <p class="xs_reg_p"><a href="./register.html">注册</a></p>
+                    <div class="user_img_box">
+                        <img src="./public/images/li3.jpeg" alt="">
+                        <ul class="user_silder">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    我的主页
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    收藏的文章
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                    喜欢的文章
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-money" aria-hidden="true"></i>
+                                    已购内容
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    我的钱包
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-cog" aria-hidden="true"></i>
+                                    我的设置
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-comment" aria-hidden="true"></i>
+                                    帮助与反馈
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                    退出
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /.container -->
+        </nav>
+    </div>
+    <!-- 内容 -->
+    <div class="container con_padding con_la in_top">
+        <div class="con_left content_left">
+            <div class="user_top">
+                <div class="main-top">
+                    <img src="./public/images/show-pic.jpg" alt="" class="show-pic">
+                    <h3 class="title"><a href="">简书钻石首席作家</a> </h3>
+                    <div class="info clearfix">
+                        <div class="info-content">
+                            <p class="num">8</p>
+                            <a href="#" class="unit">关注 <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                        <div class="info-content">
+                            <p class="num">2478947</p>
+                            <a href="#" class="unit">粉丝 <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                        <div class="info-content">
+                            <p class="num">378</p>
+                            <a href="#" class="unit">文章 <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                        <div class="info-content">
+                            <p class="num">1219089</p>
+                            <a href="#" class="unit">字数 <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                        <div class="info-content">
+                            <p class="num">26971</p>
+                            <a href="#" class="unit">收到的喜欢 <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                        <div class="info-content">
+                            <p class="num">1639</p>
+                            <a href="#" class="unit">总资产 <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="con_tab">
+
+                <!-- 下部内容 -->
+                <ul class="trigger-menu clearfix">
+                    <li class="nav-list cur">
+                        <i class="fa fa-file"></i>
+                        文章
+                        <span class="P_line dis_on"></span>
+                    </li>
+                    <li class="nav-list xs-fa">
+                        <i class="fa fa-bell "></i> 动态
+                        <span class="P_line"></span>
+                    </li>
+                    <li class="nav-list xs-fa">
+                        <i class="fa fa-comments"></i> 最新评论
+                        <span class="P_line"></span>
+                    </li>
+                    <li class="nav-list">
+                        <i class="fa fa-heart"></i> 热门
+                        <span class="P_line"></span>
+                        <div class="child">
+                            <div class="child-con">
+                                <a href="">菜单一</a>
+                                <a href="#">菜单二</a>
+                                <a href="#">菜单三</a>
+                            </div>
+                            <div class="child-con">
+                                <a href="">菜单一</a>
+                                <a href="#">菜单二</a>
+                            </div>
+                            <div class="child-con">
+                                <a href="">菜单一</a>
+                                <a href="#">菜单二</a>
+                                <a href="#">菜单三</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 下部内容1 -->
+                <div class="list-container" style="display: block">
+
+                    <ul id="news-lis" class="news-lis">
+                        <li class="clearfix">
+                            <div class="new-content">
+                                <a href="" class="title">简书城市合伙人</a>
+                                <div class="flex_img">
+                                    <span class="desc">
+                                        定位和愿景 对于城市社群，我们提倡“全民同创作，社群共建设”的价值观，由社群合伙人与成员共同协作，
+                                        打造一个“创作+分享+社交”的社群氛围。让成员...
+                                    </span>
+                                    <!-- <div class="newspic">
+                                            </div> -->
+                                </div>
+
+                                <div class="tool">
+                                    <span class="diamond"><i class="fa fa-diamond"></i> <span class="num-orange">175.7
+                                        </span> </span>
+                                    <a href="#" class="eye"><i class="fa fa-eye fa-lg"></i> 17381</a>
+                                    <a href="#" class="message"><i class="fa fa-comment comment-lg"></i> 431 </a>
+                                    <span class="heart"><i class="fa fa-heart"></i> 431</span>
+                                    <span class="money"><i class="fa fa-gift"></i> 4</span>
+                                    <span class="time">07.29 15:32</span>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="clearfix">
+                            <div class="new-content">
+                                <a href="" class="title">简书城市合伙人</a>
+                                <div class="flex_img">
+                                    <span class="desc">
+                                        定位和愿景 对于城市社群，我们提倡“全民同创作，社群共建设”的价值观，由社群合伙人与成员共同协作，
+                                        打造一个“创作+分享+社交”的社群氛围。让成员...
+                                    </span>
+                                    <div class="newspic">
+                                        <img src="./public/images/news.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tool">
+                                    <span class="diamond"><i class="fa fa-diamond"></i> <span class="num-orange">175.7
+                                        </span> </span>
+                                    <a href="#" class="eye"><i class="fa fa-eye fa-lg"></i> 17381</a>
+                                    <a href="#" class="message"><i class="fa fa-comment comment-lg"></i> 431 </a>
+                                    <span class="heart"><i class="fa fa-heart"></i> 431</span>
+                                    <span class="money"><i class="fa fa-gift"></i> 4</span>
+                                    <span class="time">07.29 15:32</span>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="clearfix">
+                            <div class="new-content">
+                                <a href="" class="title">简书城市合伙人</a>
+                                <div class="flex_img">
+                                    <span class="desc">
+                                        定位和愿景 对于城市社群，我们提倡“全民同创作，社群共建设”的价值观，由社群合伙人与成员共同协作，
+                                        打造一个“创作+分享+社交”的社群氛围。让成员...
+                                    </span>
+                                    <div class="newspic">
+                                        <img src="./public/images/news.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tool">
+                                    <span class="diamond"><i class="fa fa-diamond"></i> <span class="num-orange">175.7
+                                        </span> </span>
+                                    <a href="#" class="eye"><i class="fa fa-eye fa-lg"></i> 17381</a>
+                                    <a href="#" class="message"><i class="fa fa-comment comment-lg"></i> 431 </a>
+                                    <span class="heart"><i class="fa fa-heart"></i> 431</span>
+                                    <span class="money"><i class="fa fa-gift"></i> 4</span>
+                                    <span class="time">07.29 15:32</span>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="clearfix">
+                            <div class="new-content">
+                                <a href="" class="title">简书城市合伙人</a>
+                                <div class="flex_img">
+                                    <span class="desc">
+                                        定位和愿景 对于城市社群，我们提倡“全民同创作，社群共建设”的价值观，由社群合伙人与成员共同协作，
+                                        打造一个“创作+分享+社交”的社群氛围。让成员...
+                                    </span>
+                                    <div class="newspic">
+                                        <img src="./public/images/news.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tool">
+                                    <span class="diamond"><i class="fa fa-diamond"></i> <span class="num-orange">175.7
+                                        </span> </span>
+                                    <a href="#" class="eye"><i class="fa fa-eye fa-lg"></i> 17381</a>
+                                    <a href="#" class="message"><i class="fa fa-comment comment-lg"></i> 431 </a>
+                                    <span class="heart"><i class="fa fa-heart"></i> 431</span>
+                                    <span class="money"><i class="fa fa-gift"></i> 4</span>
+                                    <span class="time">07.29 15:32</span>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="clearfix">
+                            <div class="new-content">
+                                <a href="" class="title">简书城市合伙人</a>
+                                <div class="flex_img">
+                                    <span class="desc">
+                                        定位和愿景 对于城市社群，我们提倡“全民同创作，社群共建设”的价值观，由社群合伙人与成员共同协作，
+                                        打造一个“创作+分享+社交”的社群氛围。让成员...
+                                    </span>
+                                    <div class="newspic">
+                                        <img src="./public/images/news.png" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tool">
+                                    <span class="diamond"><i class="fa fa-diamond"></i> <span class="num-orange">175.7
+                                        </span> </span>
+                                    <a href="#" class="eye"><i class="fa fa-eye fa-lg"></i> 17381</a>
+                                    <a href="#" class="message"><i class="fa fa-comment comment-lg"></i> 431 </a>
+                                    <span class="heart"><i class="fa fa-heart"></i> 431</span>
+                                    <span class="money"><i class="fa fa-gift"></i> 4</span>
+                                    <span class="time">07.29 15:32</span>
+                                </div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                    <!-- fenye -->
+                </div>
+                <nav aria-label="Page navigation ">
+                    <ul class="pagination fen_auto">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+        <!-- 侧边专区 -->
+        <div class="con_right">
+            <div class="list-group list_box">
+                <a href="#" class="list-group-item color_lis">
+                    <div class="c_logo">
+                        <div class="svg-container">
+                            <svg version="1.1" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet"
+                                class="svg-content">
+                                <circle cx="250" cy="250" r="244" class="cr"></circle>
+                                <text font-family="'Helvetica Neue','PingFang SC','microsoft yahei'" font-size="280"
+                                    x="0" y="1em">
+                                    <tspan x="110" dy="70" style="fill: #FFFFFF">冀
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                    四川专区
+
+                </a>
+
+                <div class="lo">
+                    <div class=" lo_row">
+
+                        <div class="flex_box C_box">
+                            <div class="C-word word_pad">
+                                <h4>
+                                    <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                                    出售
+                                </h4>
+
+                                <span>今日120条</span>
+
+                                <span>昨日140条</span>
+                                共计<b style="color: #f30">260</b>条
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="list-group list_box">
+                <div href="#" class="list-group-item color_lis List_float" style="font-size: 17px;">
+                    <a href="#" class="L_logo">
+                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                        换一批
+                    </a>
+                    热门专题
+                </div>
+                <ul class="list_bot">
+                    <li>
+                        <a href="#">
+                            旅行—在路上
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            摄影
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            手绘
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            故事
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            手绘
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            互联网
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            自然科学
+                        </a>
+                    </li>
+                </ul>
+
+
+
+            </div>
+            <p class="like_w">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <a href="#">他喜欢的文章</a>
+            </p>
+            <div class="list-group list_box">
+                <div href="#" class="list-group-item  List_float list_likes"
+                    style="font-size: 17px !important; border: 0 !important">
+                    <span>
+                        他创建的专题
+                    </span>
+                </div>
+                <ul class="Like_word">
+                    <li>
+                        <div class="like_img">
+                            <img src="./public/images/li.jpg" alt="" width="100%" height="100%">
+                        </div>
+                        <a href="#">简书钻/FTN社区优质文章挑战赛第1赛季</a>
+                        <p class="read-count">
+                            <span>阅读</span>
+                            <span>3250</span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="like_img">
+                            <img src="./public/images/li3.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <a href="#">征征征征表情包啦</a>
+                        <p class="read-count">
+                            <span>阅读</span>
+                            <span>3250</span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="like_img">
+                            <img src="./public/images/li2.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <a href="#">简书钻/FTN社区优质文章挑战赛第1赛季</a>
+                        <p class="read-count">
+                            <span>阅读</span>
+                            <span>3250</span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="like_img">
+                            <img src="./public/images/li3.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <a href="#">简书钻/FTN社区优质文章挑战赛第1赛季</a>
+                        <p class="read-count">
+                            <span>阅读</span>
+                            <span>3250</span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="like_img">
+                            <img src="./public/images/li5.jpg" alt="" width="100%" height="100%">
+                        </div>
+                        <a href="#">简书钻/FTN社区优质文章挑战赛第1赛季</a>
+                        <p class="read-count">
+                            <span>阅读</span>
+                            <span>3250</span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="like_img">
+                            <img src="./public/images/li3.jpeg" alt="" width="100%" height="100%">
+                        </div>
+                        <a href="#">简书钻/FTN社区优质文章挑战赛第1赛季</a>
+                        <p class="read-count">
+                            <span>阅读</span>
+                            <span>3250</span>
+                        </p>
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p><a href="#">关于简书</a>
+                <a href="#">联系我们</a>
+                <a href="#">加入我们</a>
+                <a href="#">简书出版</a>
+                <a href="#">品牌与徽标</a>
+                <a href="#">帮助中心</a>
+                <a href="#">合作伙</a>
+            </p>
+            <p class="footer_word">20122019上海伯集信息科技有限公司/简书/沪CP备11018329号5沪公网安备31010402002252号</p>
+            <p class="footer_word">亲爱的市民朋友，上海警方反诈劝阻电话962110°系专门针对避免您财</p>
+            <p class="footer_word">被骗受损而设，请您一旦收到来电，立即接听</p>
+        </div>
+    </footer>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="./node_modules/jquery/dist/jquery.min.js"><\/script>')
+    </script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./public/js/IE10.js"></script>
+    <script src="./public/js/index.js"></script>
+    <!-- <script src="./public/js/fade.js"></script> -->
+</body>
+
+</html>

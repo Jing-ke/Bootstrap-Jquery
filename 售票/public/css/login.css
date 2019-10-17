@@ -1,0 +1,208 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    /* background-color: #fafde8; */
+}
+.login_color{
+    background-color: #fff;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 7px 0 0 21px;
+}
+.logo .cr{
+    fill: rgb(255,99,79);
+}
+
+.login-warp{
+    position: absolute;
+    /* top: -180px; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 30px 70px 30px 70px;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.register-warp{
+    position: absolute;
+    /* top: -150px; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 470px;
+    margin-top: calc(50% -235px) !important;
+    padding: 60px 70px 30px 70px;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.login-warp .title{
+    /* margin-left: calc(50% - 85px); */
+    margin-bottom: 50px;
+}
+.login-warp .title>a{
+    padding: 0 15px 10px 15px;
+    font-size: 20px;
+    color: rgb(153,154,156);
+    text-decoration: none;
+    cursor: pointer;
+}
+.login-warp .title>a:hover{
+    font-weight: 700;
+    color: rgb(255,99,79);
+}
+.fen{
+    margin: 0 10px;
+    font-size: 20px;
+    color: rgb(153,154,156);
+}
+.login-warp .title>a.on{
+    font-weight: 700;
+    color: rgb(255,99,79);
+    border-bottom: 2px solid rgb(255,99,79);
+}
+/* 登录区域 */
+.regs-content{
+    width: 100%;
+    /* height: 80px; */
+    /* border: 1px solid #000; */
+}
+.input-bottom{
+    margin-bottom: 30px !important;
+}
+.radio-left{
+    margin-left: 6.5% !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+}
+.btn-center{
+    margin-left: calc(50% - 90px);
+}
+.maright{
+   /* float: left; */
+   margin-right: 10px;
+   border: 1px solid rgb(255,99,79) !important;
+   background-color: rgb(255,99,79) !important;
+   color: #fff !important;
+}
+.mleft{
+    /* float: right; */
+    border: 1px solid rgb(255,99,79) !important;
+   background-color: rgb(255,99,79) !important;
+   color: #fff !important;
+}
+.btn-top{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.verify{
+    top: 1px !important;
+    right: 16px !important;
+    width: 70px !important;
+    text-align: center !important;
+    line-height: 32px !important;
+    height: 32px !important;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px){
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin: 10px auto;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin: 10px auto;
+
+    }
+    .login-warp{
+        width: 95%;
+        margin-top: 100px;
+        padding: 60px 18px 30px 18px;
+        border: 1px solid #f1f1f1;
+        background-color: #fff;
+        box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    }
+    .login-warp{
+        position: absolute;
+        top: 19px;
+    }
+    .register-warp{
+        position: absolute;
+        top: 14px;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .login-warp{
+        position: absolute;
+        top: -180px;
+    }
+    .register-warp{
+        position: absolute;
+        top: -150px;
+    }
+    .po-bottom{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+
+.title{
+    text-align: center;
+}
+.title span{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255,99,79);
+}
+.mess-content{
+    position: relative;
+}
+.send-mess{
+    position: absolute;
+    top: 1px;
+    right: 16px;
+    padding: 6px 10px !important;
+    color:#fff;
+    background-color: rgb(255,99,79) !important;
+    border-radius: 0 2px 2px 0;
+    text-decoration: none;
+}
+.send-mess:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.send-mess:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.form-control-feedback{
+    line-height: 34px !important;
+}
+.foot_login{
+    padding-left: 20px;
+}
